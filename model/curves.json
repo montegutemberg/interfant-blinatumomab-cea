@@ -1,0 +1,296 @@
+{
+ "dfs_c": {
+  "gompertz": {
+   "params": [
+    -0.7821525236562056,
+    0.6889756631478211
+   ],
+   "aic": 505.05,
+   "bic": 511.78,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "mixture_cure_weibull": {
+   "params": [
+    0.40942684045450795,
+    0.8989580750817794,
+    0.7478140763615595
+   ],
+   "aic": 506.08,
+   "bic": 516.18,
+   "k": 3,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "gengamma": {
+   "params": [
+    -2.0733794758554676,
+    0.21526365568571001,
+    -20.174362219174675
+   ],
+   "aic": 508.67,
+   "bic": 518.77,
+   "k": 3,
+   "note": "ajustada a S(2), S(4) e S(10) tomado como S(7)",
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "lognormal": {
+   "params": [
+    0.9410874286013282,
+    3.472891462925064
+   ],
+   "aic": 509.79,
+   "bic": 516.52,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "loglogistic": {
+   "params": [
+    2.529018641277149,
+    0.4613976927243089
+   ],
+   "aic": 509.83,
+   "bic": 516.56,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "weibull": {
+   "params": [
+    7.9998666653389785,
+    0.33165335268829654
+   ],
+   "aic": 511.51,
+   "bic": 518.24,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "exponential": {
+   "params": [
+    0.21576949175009816
+   ],
+   "aic": 600.37,
+   "bic": 603.74,
+   "k": 1,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  }
+ },
+ "os_c": {
+  "gompertz": {
+   "params": [
+    -0.6207345431872469,
+    0.3436299642114904
+   ],
+   "aic": 461.27,
+   "bic": 468.0,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "mixture_cure_weibull": {
+   "params": [
+    0.5792139674394291,
+    1.3406795893205468,
+    1.026379725460056
+   ],
+   "aic": 463.04,
+   "bic": 473.13,
+   "k": 3,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "gengamma": {
+   "params": [
+    -1.2933773707713225,
+    0.15762771568858014,
+    -34.68070031397248
+   ],
+   "aic": 466.53,
+   "bic": 476.63,
+   "k": 3,
+   "note": "ajustada a S(2), S(4) e S(10) tomado como S(7)",
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "lognormal": {
+   "params": [
+    2.2610367008791927,
+    2.990500701037995
+   ],
+   "aic": 470.17,
+   "bic": 476.91,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "loglogistic": {
+   "params": [
+    9.362666096167985,
+    0.5462056783445166
+   ],
+   "aic": 470.98,
+   "bic": 477.72,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "weibull": {
+   "params": [
+    21.04296746276256,
+    0.44287413015029065
+   ],
+   "aic": 472.68,
+   "bic": 479.41,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "exponential": {
+   "params": [
+    0.12091292909858375
+   ],
+   "aic": 512.58,
+   "bic": 515.95,
+   "k": 1,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  }
+ },
+ "dfs_i": {
+  "gompertz": {
+   "params": [
+    -1.1407518954415174,
+    0.20857387796888696
+   ],
+   "aic": 39.41,
+   "bic": 42.21,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "mixture_cure_weibull": {
+   "params": [
+    0.8333333336087465,
+    1.010838895582759,
+    8.109174092423283
+   ],
+   "aic": 39.76,
+   "bic": 43.97,
+   "k": 3,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "gengamma": {
+   "params": [
+    -1.6878701021429712,
+    0.9997924011544156,
+    -18.70390768146408
+   ],
+   "aic": 42.69,
+   "bic": 46.89,
+   "k": 3,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "lognormal": {
+   "params": [
+    6.43567701566582,
+    5.1565649967870755
+   ],
+   "aic": 41.15,
+   "bic": 43.95,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "loglogistic": {
+   "params": [
+    400.55358601116717,
+    0.3539909481567995
+   ],
+   "aic": 41.23,
+   "bic": 44.04,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "weibull": {
+   "params": [
+    784.186081166706,
+    0.3270366234622576
+   ],
+   "aic": 41.28,
+   "bic": 44.08,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "exponential": {
+   "params": [
+    0.04348511203000001
+   ],
+   "aic": 43.35,
+   "bic": 44.76,
+   "k": 1,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  }
+ },
+ "os_i": {
+  "gompertz": {
+   "params": [
+    -8.556969381065846,
+    0.5906757515255597
+   ],
+   "aic": 18.7,
+   "bic": 21.5,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "lognormal": {
+   "params": [
+    28.561288885535554,
+    18.118189360890828
+   ],
+   "aic": 19.49,
+   "bic": 22.29,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "loglogistic": {
+   "params": [
+    4464705916.729024,
+    0.126811026995122
+   ],
+   "aic": 19.63,
+   "bic": 22.43,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "weibull": {
+   "params": [
+    9109982037.541677,
+    0.12440619732049041
+   ],
+   "aic": 19.65,
+   "bic": 22.45,
+   "k": 2,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "gengamma": {
+   "params": [
+    -22.680959811742273,
+    3.434430548702016,
+    -102.93103200070422
+   ],
+   "aic": 20.94,
+   "bic": 25.14,
+   "k": 3,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "mixture_cure_weibull": {
+   "params": [
+    0.9333333345710263,
+    0.019864560117885625,
+    3.6014114234196644
+   ],
+   "aic": 20.7,
+   "bic": 24.9,
+   "k": 3,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  },
+  "exponential": {
+   "params": [
+    0.01600034148432139
+   ],
+   "aic": 22.54,
+   "bic": 23.94,
+   "k": 1,
+   "fonte": "MLE com censura intervalar; n\u00fameros em risco e censuras de Vieira Martins 2026 (Fig. 1B-D)"
+  }
+ }
+}
